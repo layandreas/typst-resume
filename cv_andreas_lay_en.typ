@@ -20,7 +20,7 @@
       - Setting up CI/CD pipelines: Cloud Run, Cloud Build Github Actions
       - Data engineering: Setting up streamed / scheduled ELT jobs using dbt, Snowflake, Kafka & BigQuery
      - Modelling & implementation of time series forecasts + optimization algorithms
-    - Infrastructureascode:Automatizeddeployment of cloud resources using Terraform
+    - Infrastructure-as-code: Automatized deployment of cloud resources using Terraform
     - Architecture & implementation of custom analytics platform in Google Cloud: Load balancing, authentication, app deployment templates, CI/CD pipelines
     - Modelling of fraud probability for ECOM business    
     - Building of customer segmentation workflow using Apache Beam and Dataflow
