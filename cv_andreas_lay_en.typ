@@ -88,7 +88,7 @@
     Python • R • SAS • SQL • HCL • VBA • Stata • Matlab
 
     _Frameworks_ \
-    scikit-learn • xgboost • pandas • numpy • plotly • django • fastapi • py- torch • Streamlit
+    scikit-learn • xgboost • pandas • numpy • plotly • django • fastapi • pytorch • Streamlit
 
     _Tooling_ \
     Google Cloud Platform • git • Github • Gitlab • docker • terraform • dagster • nginx • dbt • Jira • Confluence
