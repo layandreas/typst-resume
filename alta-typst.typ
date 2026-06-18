@@ -83,7 +83,7 @@
   )
   set text(9.8pt, font: "IBM Plex Sans")
   set page(
-    margin: (x: 54pt, y: 52pt),
+    margin: (x: 54pt, y: 36pt),
   )
 
   show heading.where(

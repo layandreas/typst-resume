@@ -1,41 +1,45 @@
-#import "alta-typst.typ": alta, term, skill, styled-link
+#import "alta-typst.typ": alta, skill, styled-link, term
 
 #alta(
   name: "Andreas Lay",
   links: (
     (name: "email", link: "mailto:andreas.lay@gmail.com"),
-    (name: "website", link: "https://layandreas.github.io/personal-blog/", display: "layandreas.github.io/personal-blog/"),
+    (
+      name: "website",
+      link: "https://layandreas.github.io/personal-blog/",
+      display: "layandreas.github.io/personal-blog/",
+    ),
     (name: "github", link: "https://github.com/layandreas", display: "@layandreas"),
     (name: "linkedin", link: "https://www.linkedin.com/in/andreas-l-684252a4", display: "Andreas Lay"),
   ),
-  tagline: [Senior Data Scientist with strong expertise in ML, Statistics, Time Series Forecasting & Software Engineering],
+  tagline: [Senior Machine Learning Engineer & Tech Lead with strong expertise in ML, Statistics, Time Series Forecasting & Software Engineering. Building end-to-end machine learning pipelines: Discovery, Architecture & Implementation],
   [
     == Experience
 
+    === Senior Machine Learning Engineer \
+    Buynomics\
+    #term[Since Nov 2025][Hybrid / Cologne, Germany]
+
+    - Tech Lead enhancing Buynomics' B2B machine learning platform, owning the platform backlog
+    - Architecting & building a new client onboarding & model training platform from scratch with a team of MLEs & Software Engineers, deployed on AWS & Azure
+    - Introduced spec-driven development workflow (OpenSpec, Claude) including thorough AI-assisted code reviews
+    - Built a scalable model evaluation framework running tens of thousands of simulations per model to ensure model quality
+    - Implementing a new Azure backend in addition to existing AWS backend, opening up a wider customer base requesting Azure deployments
+
     === Senior Data Scientist \
     REWE Group\
-    #term[Since Aug 2019][Cologne, Germany]
+    #term[Aug 2019 --- Oct 2025][Cologne, Germany]
 
-    - Leading role in architecture & development of business-critical e-commerce order forecast used by operations for optimal staff planning:
-      - Machine learning system to forecast the number of orders for each delivery day & zip code in Rewe's delivery regions for the next 1-20 weeks
-      - Fully serverless, cost-effective implementation leveraging Snowflake / GCP Cloud Run / Managed Airflow / GitLab CI/CD
-      - Avoiding vendor lock-in by taking full advantage of the Python open source ecosystem: dbt, LightGBM, scikit-learn, ibis, duckdb, Streamlit
-      - Including custom model monitoring frontend & alerting to ensure data & model quality
-    - Architecture & implementation of custom analytics platform in Google Cloud Platform:
-      - Dockerization of authentication & authorization gateway to be used by all analytics teams
-      - Writing of app deployment templates for our GitLab CI/CD pipelines
-      - Providing teams with Terraform modules for e.g. easy alerting to MS Teams & Slack
-    - Modelling of fraud probability for e-commerce business    
-    - Building of customer segmentation workflow using Apache Beam and Dataflow
-    - Supporting e-commerce business units in their decisions with high-quality data analysis and modelling
+    - Led architecture & development of business-critical e-commerce order forecast for optimal staff planning: ML system forecasting order volume per delivery day & zip code, 1-20 weeks ahead, fully serverless on Snowflake / GCP Cloud Run / Managed Airflow / GitLab CI/CD
+    - Architected & implemented custom analytics platform on Google Cloud Platform, incl. auth/authorization gateway and Terraform modules for team-wide alerting
+    - Modelling of fraud probability and customer segmentation (Apache Beam/Dataflow) for e-commerce business
     - Support of testing team in designing and evaluating A/B tests on website and app
 
     === Credit Risk Modeler \
     Deutsche Bank AG (formerly Deutsche Postbank AG)\
     #term[Oct 2015 --- Sep 2019][Bonn, Germany]
 
-    - Modelling of loan default probability and credit loss rates for the retail portfolio of 12m customers used for lending decisions and capital requirements
-    - Setting up and deployment of automatized model monitoring to ensure model stability and performance
+    - Modelling of loan default probability and credit loss rates for the retail portfolio of 12m customers used for lending decisions and capital requirements; set up automated model monitoring to ensure stability and performance
     - Supporting data integration efforts with respect to fully integrating Postbank into Deutsche Bank Group
 
     == Scholarships
@@ -87,14 +91,14 @@
     scikit-learn • LightGBM • pandas • numpy • plotly • django • fastapi • pytorch • Streamlit
 
     _Tooling_ \
-    Google Cloud Platform • git • Github • Gitlab • docker • terraform • dagster • nginx • dbt • Jira • Confluence
+    AWS • Azure • Google Cloud Platform • git • Github • Gitlab • docker • terraform • OpenTofu • dagster • nginx • dbt • Jira • Confluence • Claude Code • OpenSpec
 
     _Databases & Streaming_ \
-    BigQuery • Snowflake • PostgreSQL • Oracle • Teradata • Db2 • Kafka • Beam • GCP Pub/Sub
+    BigQuery • Snowflake • PostgreSQL • Oracle • Teradata • Db2 • Kafka • Beam • GCP Pub/Sub • DuckDB
 
-    === Languages 
+    === Languages
 
-    German (native speaker) • English (fluent) • Spanish (conversational) • Mandarin Chinese (basic)    
+    German (native speaker) • English (fluent) • Spanish (conversational) • Mandarin Chinese (basic)
 
 
   ],
