@@ -16,7 +16,7 @@
   [
     == Experience
 
-    === Senior Machine Learning Engineer \
+    === Senior Machine Learning Engineer | Tech Lead \
     Buynomics\
     #term[Since Nov 2025][Hybrid / Cologne, Germany]
 
