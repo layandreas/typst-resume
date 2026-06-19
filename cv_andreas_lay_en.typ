@@ -31,7 +31,7 @@
     #term[Aug 2019 --- Oct 2025][Cologne, Germany]
 
     - Led architecture & development of business-critical e-commerce order forecast for optimal staff planning: ML system forecasting order volume per delivery day & zip code, 1-20 weeks ahead, fully serverless on Snowflake / GCP Cloud Run / Managed Airflow / GitLab CI/CD
-    - Architected & implemented custom analytics platform on Google Cloud Platform, incl. auth/authorization gateway and Terraform modules for team-wide alerting
+    - Architected & implemented custom analytics platform on Google Cloud Platform, incl. auth/authorization gateway and Terraform modules to enable easy cross-team adoption
     - Modelling of fraud probability and customer segmentation (Apache Beam/Dataflow) for e-commerce business
     - Support of testing team in designing and evaluating A/B tests on website and app
 
